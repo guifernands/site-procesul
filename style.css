@@ -17,13 +17,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: rgb(37, 36, 36);
 }
 
 header {
-    background-image: linear-gradient(to bottom, rgb(139, 56, 0), rgb(241, 218, 8));
+    background-image: linear-gradient(to bottom, rgb(255, 10, 10), rgb(95, 3, 3));
     padding: 16px;
     width: 100vw;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.849);
 }
 
 header > section > h1 {
@@ -47,30 +48,51 @@ section.bloco-mais {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    height: 35px;
-    width: 35px;
-    border: 2px solid black;
+    height: 55px;
+    width: 55px;
+    border: 2px solid rgb(94, 94, 94);
     border-radius: 4px;
-
+    background-color: gray;
 }
 
-div.mais {
-    font-size: 30px;
-    text-align: center;
+section.bloco-mais > a {
     margin: auto;
+    text-decoration: none;
+    color: black;
 }
 
-    footer {
-        background-color: grey;
+section.bloco-mais > a > div.mais {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(37, 36, 36);
+}
+
+section.bloco-predefinicao {
+    width: 75px;
+    height: 75px;
+    background-color: gray;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: rgb(22, 22, 22);
     color: white;
     padding: 16px 0;
     text-align: center;
-    width: 100%;  
-    }
+    width: 100%; 
+    font-size: 8px;
+    border-top: 1px solid rgba(0, 0, 0, 0.877);
+}
 
-    .rodape {
-        max-width: 1280px;
+.rodape {
+    max-width: 1280px;
     width: 100%;
     margin: 0 auto;
-    }
+}
+
+.rodape .devs {
+    text-decoration: none;
+    font-size: 14px;
+}
 
