@@ -49,7 +49,7 @@ header > section.cabecalho > h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 96%;
+    width: 98%;
 }
 
 header > section.bloco-menu {
@@ -79,10 +79,6 @@ header > section.bloco-menu {
 .menu a:hover {
     border-bottom: 1px solid rgba(255, 255, 255, 0.438);
     transition: .7s;
-}
-
-.bloco menu {
-    margin-left: 15px;
 }
 
 main {
